@@ -1,2 +1,2 @@
-const API_URL = "http://localhost:4000";
+const API_URL = "https://userauthorizationbackend.onrender.com";
 export default API_URL;
