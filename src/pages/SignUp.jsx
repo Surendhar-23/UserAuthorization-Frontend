@@ -56,7 +56,7 @@ export const SignUp = () => {
         <Form.Group>
           <Form.Label>password</Form.Label>
           <Form.Control
-            type="text"
+            type="password"
             name="password"
             value={formData.password}
             onChange={handlechange}

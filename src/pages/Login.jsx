@@ -49,7 +49,7 @@ export const Login = () => {
         <Form.Group>
           <Form.Label>password</Form.Label>
           <Form.Control
-            type="text"
+            type="password"
             name="password"
             value={formData.password}
             onChange={handlechange}
@@ -57,7 +57,7 @@ export const Login = () => {
           ></Form.Control>
         </Form.Group>
         <Button variant="primary" type="submit">
-          Register
+          Login
         </Button>
       </Form>
     </Container>
